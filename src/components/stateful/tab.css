@@ -1,0 +1,16 @@
+.tab-container{
+    height: 40px;
+    padding: 10px;
+    background-color: lightseagreen;
+    display: flex;
+    justify-content: space-around;
+}
+.tab-header{
+    padding: 0;
+    margin: 0;
+    flex-basis: 150px;
+    cursor: pointer;
+}
+.tab-header.active{
+    color: violet;
+}

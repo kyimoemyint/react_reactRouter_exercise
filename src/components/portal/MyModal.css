@@ -1,0 +1,19 @@
+.our-modal{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    background-color:rgba(41, 41, 32, 0.133);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.our-modal-body{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    text-align: center;
+}
